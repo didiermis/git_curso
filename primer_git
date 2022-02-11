@@ -44,6 +44,9 @@ como Emacs, puedes hacer lo siguiente:
 
 $ git config --global core.editor emacs
 
+ARCHIVO 
+.gitignore sirve para ignorar todos los archivos o rutas 
+
 
 
  
@@ -72,7 +75,9 @@ git status
  git log
     Sirve para ver los commits que hemos creado, con su direccion hash
 git checkout --primergit
-    se usa para revertir los cambios del archivo_
+    se usa para revertir los cambios del archivo
+git diff
+    Sirve para ver las diferencias hechas en los archivos
  git push
     se usar para subirlo a un repositorio remoto
  git pull
