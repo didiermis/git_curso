@@ -66,6 +66,8 @@ git status
  git adds <file>
     se usa para poder pasar los archivos del working directory
     al staging area
+git add .
+    sirve para agrgar TODOS los cambios
  git status
     para ver en qué estado están tus archivos (en el working directory
     o en el staging area)
@@ -84,3 +86,11 @@ git diff
     te trae los cambios que han hecho los otros desarrolladores
  git clone
     crea una copia desde el servidor a la amquina Local
+git branch
+    enlista los branchs y te muestra en cuàl estás
+git branch [Nombre del nuevo branch] 
+    crea un nuevo branch con ese nombre pero no te mueves a ese branch
+git checkout [Nombre del branch]
+    sirve para cambair de branch
+git checkout -b [Nombre del branch]
+    sirve para crear un nuevo branch y moverte ese nuevo branch
