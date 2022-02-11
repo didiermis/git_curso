@@ -14,11 +14,52 @@ staging area
 repository
     Guarda cambios finales
 
+Primeros pasos
+Git trae una herramienta llamada git config, que te permite obtener
+ y establecer variables de configuración que controlan el aspecto y 
+ funcionamiento de Git.Tu Identidad
+
+Lo primero que deberás hacer cuando instales Git es establecer tu 
+nombre de usuario y dirección de correo electrónico. Esto es importante
+ porque los "commits" de Git usan esta información, y es introducida 
+ de manera inmutable en los commits que envías:
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+De nuevo, sólo necesitas hacer esto una vez si especificas 
+la opción --global, ya que Git siempre usará esta información para 
+todo lo que hagas en ese sistema. Si quieres sobrescribir esta
+información con otro nombre o dirección de correo para proyectos 
+específicos, puedes ejecutar el comando sin la 
+opción --global cuando estés en ese proyecto.
+
+Tu Editor
+
+Ahora que tu identidad está configurada, puedes elegir el editor de 
+texto por defecto que se utilizará cuando Git necesite que introduzcas
+un mensaje. Si no indicas nada, Git usará el editor por defecto de tu 
+sistema, que generalmente es Vim. Si quieres usar otro editor de texto 
+como Emacs, puedes hacer lo siguiente:
+
+$ git config --global core.editor emacs
+
+
+
+ 
+
+
+
+
+
+
 Basic commands
 git es una ICL
  git init 
     manera en que le decimos a git que creamos un proyecto nuevo, 
     empezar a utilizar git en este proyecto
+git status  
+    sirve para ver el estado de nuestros archivos
  git adds <file>
     se usa para poder pasar los archivos del working directory
     al staging area
@@ -26,8 +67,15 @@ git es una ICL
     para ver en qué estado están tus archivos (en el working directory
     o en el staging area)
  git commint
+    Para crear un primer punto de control de nuestro codigo
     se usa para pasar del staging area al repository, crear primer snpashot
+ git log
+    Sirve para ver los commits que hemos creado, con su direccion hash
+git checkout --primergit
+    se usa para revertir los cambios del archivo_
  git push
     se usar para subirlo a un repositorio remoto
  git pull
+    te trae los cambios que han hecho los otros desarrolladores
  git clone
+    crea una copia desde el servidor a la amquina Local
