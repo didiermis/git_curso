@@ -1,0 +1,33 @@
+Version control system VCS for tracking changes in computers files
+
+Distributed version control
+Coordinates work between ,multiple developers
+Who made what changes and when
+Revert back any time
+Local & remote repos
+
+Git tiene 3 estados
+working directory
+    donde tu trbajas con todos tus archivos
+staging area
+    listado de cambios
+repository
+    Guarda cambios finales
+
+Basic commands
+git es una ICL
+ git init 
+    manera en que le decimos a git que creamos un proyecto nuevo, 
+    empezar a utilizar git en este proyecto
+ git adds <file>
+    se usa para poder pasar los archivos del working directory
+    al staging area
+ git status
+    para ver en qué estado están tus archivos (en el working directory
+    o en el staging area)
+ git commint
+    se usa para pasar del staging area al repository, crear primer snpashot
+ git push
+    se usar para subirlo a un repositorio remoto
+ git pull
+ git clone
