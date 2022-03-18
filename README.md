@@ -2,6 +2,7 @@
 This contract holds ...
 
 ## Actions
+--
 ### create
 #### Description:
 Creates a new referendum system where users can vote.
