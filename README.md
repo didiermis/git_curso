@@ -6,11 +6,11 @@ This contract holds ...
 #### Description:
 Creates a new referendum system where users can vote.
 
-### Required permission: `referendums1@active`
+#### Required permission: `referendums1@active`
 #### Inline actions: 
 N / A
 
-### Parameters: 
+#### Parameters: 
 | Type | Name | Description |
 | -- | -- | -- |
 | uint64_t | referendum_id | Referendum id |
@@ -39,3 +39,4 @@ Note: See special data types section for more information
 --
 
 ## 
+
