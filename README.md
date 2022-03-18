@@ -2,16 +2,15 @@
 This contract holds ...
 
 ## Actions
---
-### create
-#### Description:
+## create
+### Description:
 Creates a new referendum system where users can vote.
 
-#### Required permission: `referendums1@active`
-#### Inline actions: 
+### Required permission: `referendums1@active`
+### Inline actions: 
 N / A
 
-#### Parameters: 
+### Parameters: 
 | Type | Name | Description |
 | -- | -- | -- |
 | uint64_t | referendum_id | Referendum id |
@@ -22,9 +21,9 @@ N / A
 | day_percentage | majority_config | Configuration of the requirements for the majority |
 
 Note: See special data types section for more information
--- 
+---
 
-# Special data types
+## Special data types
 ## day_percentage
 
 | Type | Name |
@@ -37,7 +36,9 @@ Note: See special data types section for more information
 | uint16_t | start day |
 | uint16_t | percentage |
 
---
+---
 
 ## 
+
+
 
