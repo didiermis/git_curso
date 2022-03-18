@@ -21,6 +21,7 @@ N / A
 | day_percentage | majority_config | Configuration of the requirements for the majority |
 
 Note: See special data types section for more information
+
 ---
 
 ## Special data types
